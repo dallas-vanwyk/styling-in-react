@@ -1,8 +1,9 @@
-// src/components/example-5-sass/Button.jsx
+// src/component/example-5-sass/Button.jsx
+import './button.sass';
 
 const Button = ({ buttonText }) => {
-    return <button>{buttonText}</button>;
-  };
-  
-  export default Button;
-  
+  // Using the class name from our Sass file:
+  return <button className="sassy-button">{buttonText}</button>; 
+};
+
+export default Button;
